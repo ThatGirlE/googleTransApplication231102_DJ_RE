@@ -35,6 +35,9 @@ class MyGoogleTrans(QMainWindow, form_class):
 
     def reset_clear(self):
         self.input_kor_text.clear()
+        self.output_eng_text.clear()
+        self.output_jpn_text.clear()
+        self.output_chn_text.clear()
 
 
 if __name__ == '__main__':  # 자동실행 방지
